@@ -33,7 +33,13 @@ int main() {
     ravenclaw++;
   else if (answer1 == 4)
     gryffindor++;
+  else
+  {
 
+    std::cout << "Invalid input\n";
+
+  }
+    
   // ~~~~~~~~~~ Question 2 ~~~~~~~~~~
 
   std::cout << "\nQ2) Dawn or Dusk?\n\n";
